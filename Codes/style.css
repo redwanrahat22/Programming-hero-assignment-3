@@ -1,0 +1,33 @@
+body{
+    font-family: 'Lato', sans-serif;
+
+}
+
+hr{
+    margin: 10px;
+}
+
+.first-part-now{
+    margin-left: 22rem;
+}
+
+.cal{
+    width: 94%;
+    
+}
+
+.team1{
+    background-size: cover;
+}
+
+
+@media (min-width: 320px) and (max-width: 768px) {
+    .team1{
+        height: 1400px;
+    }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+    .team1{
+        height: 1366px;
+    }
+}
